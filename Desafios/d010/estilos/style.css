@@ -32,23 +32,23 @@ body {
     background-color: var(--cor0);
 }
 
-a.externo::after{
+a.externo::after {
     content: '\0020\1F517';
 }
 
-a.home::before{
+a.home::before {
     content: '\1F3E0\0020';
 }
 
-a.noticias::before{
+a.noticias::before {
     content: '\1F4F0\0020';
 }
 
-a.curiosidades::before{
+a.curiosidades::before {
     content: '\1F440\0020';
 }
 
-a.fale::before{
+a.fale::before {
     content: '\1F4DE\0020';
 }
 
@@ -77,7 +77,7 @@ header>p {
     padding-right: 10px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.527);
-    margin-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 nav {
@@ -164,7 +164,7 @@ main img.pequena {
     display: block;
 }
 
-div.video{
+div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
@@ -173,7 +173,7 @@ div.video{
     position: relative;
 }
 
-div.video > iframe{
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -188,7 +188,7 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.274);
 }
 
-aside > h3{
+aside>h3 {
     background-color: var(--cor4);
     color: white;
     padding: 5px;
